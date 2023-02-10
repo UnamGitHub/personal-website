@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f5f9;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1.2;
+}
+
+img {
+  border-radius: 99px;
+  width: 128px;
+}
+
+.sections {
+  color: rgb(37, 38, 41);
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.75rem;
+  padding: 12px;
+  width: 100%;
+  height: 100%;
+}
+
+.scrollable {
+  scroll-behavior: smooth;
+  height: calc(100% - 150px);
+  width: 100%;
+  margin-top: 50px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
